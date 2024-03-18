@@ -16,7 +16,7 @@ processar as informações e encontre a solução do problema.
 
 3. Faça um programa que leia em um vetor uma sequência finita de números digitados pelo usuário. Crie um segundo vetor que armazene o dobro de cada número do primeiro vetor e depois apresente os valores deste vetor.
 
-4. Elabore um programa que leia um vetor de 5 números digitados pelo usuário e umavariável de um número n qualquer, depois mostre na tela o índice dos elementos quesão inferiores a n.
+4. Elabore um programa que leia um vetor de 5 números digitados pelo usuário e uma variável de um número n qualquer, depois mostre na tela o índice dos elementos quesão inferiores a n.
 
 5. Elabore um programa que leia 5 números do teclado e os armazene em um vetor.Em seguida, leia um número n qualquer e apresente na tela a quantidade de vezesque o número n aparece no vetor.
 

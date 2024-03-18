@@ -14,7 +14,7 @@ processar as informações e encontre a solução do problema.
 
 2. Escreva um algoritmo que leia em um vetor uma sequência finita de números digitados pelo usuário e, logo após, mostre o número de cada posição do vetor e se ele é positivo, negativo ou zero.
 
-3. Faça um programa que leia em um vetor uma sequência finita de números digitados pelo usuário. Crie um segundo vetor que armazene o dobro de cada número doprimeiro vetor e depois apresente os valores deste vetor.
+3. Faça um programa que leia em um vetor uma sequência finita de números digitados pelo usuário. Crie um segundo vetor que armazene o dobro de cada número do primeiro vetor e depois apresente os valores deste vetor.
 
 4. Elabore um programa que leia um vetor de 5 números digitados pelo usuário e umavariável de um número n qualquer, depois mostre na tela o índice dos elementos quesão inferiores a n.
 

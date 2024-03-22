@@ -1,35 +1,21 @@
 import java.util.Scanner;
-
-public class Ex13 {
+public class Ex13{
     public static void run(){
-        Scanner input = new Scanner(System.in);
-        System.out.printf("Insira o valor do A: ");
-        Double A = input.nextDouble();
-        System.out.printf("Insira o valor do B: ");
-        Double B = input.nextDouble();
-        input.nextLine();
-        System.out.printf("Insira a operação aritmética(- + * /): ");
-        char C = input.next().charAt(0);
-        System.out.println("O resultado é...");
-        switch (C) {
-            case '-':
-                System.out.println("A subtração de " + A + " por " + B + " = " + (A-B));
-                break;
-            case '+':
-                System.out.println("A soma de " + A + " por " + B + " = " + (A+B));
-                break;
-            case '*':
-                System.out.println("A multiplicação de " + A + " por " + B + " = " + (A*B));
-                break;
-            case '/':
-                System.out.println("A divisão de " + A + " por " + B + " = " + (A/B));                    
-                break;
-        
-            default:
-                System.out.println("Insira um operador aritmético válido");
-                break;
-        }
-        
-        
+            Scanner input = new Scanner(System.in);
+            
+            int n;
+        System.out.printf("Please Input n: ");
+            n = input.nextInt();
+            input.nextLine();
+            
+            long Fibonacci[] = new long[n+2];
+            Fibonacci[0] = 0;
+            Fibonacci[1] = 1;
+            for (int i = 0; i < n; i++) {
+                System.out.printf("%d ", Fibonacci[i]);
+                Fibonacci[i+2] = Fibonacci[i] + Fibonacci[i+1];
+                }
+            System.out.printf("\n");
+
     }
 }

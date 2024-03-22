@@ -7,14 +7,13 @@ public class Ex13{
         System.out.printf("Please Input n: ");
             n = input.nextInt();
             input.nextLine();
-            
             long Fibonacci[] = new long[n+2];
             Fibonacci[0] = 0;
             Fibonacci[1] = 1;
             for (int i = 0; i < n; i++) {
-                System.out.printf("%d ", Fibonacci[i]);
                 Fibonacci[i+2] = Fibonacci[i] + Fibonacci[i+1];
-                }
+                System.out.printf("%d ", Fibonacci[i]);
+            }
             System.out.printf("\n");
 
     }

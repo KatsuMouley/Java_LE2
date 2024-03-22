@@ -14,9 +14,11 @@ public class Ex10{
                 System.out.printf(" %d", A[i]);
             }
             System.out.printf("\n");
+            int j = 0;
             for (int i = 4; i >= 0; i--) {
-                B[i] = A[i];
-                System.out.printf(" %d", B[i]);
+                B[j] = A[i];
+                System.out.printf(" %d", B[j]);
+                j++;
             }
             System.out.printf("\n");
     }

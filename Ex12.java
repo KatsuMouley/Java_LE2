@@ -12,7 +12,7 @@ public class Ex12{
             }
             
             for (int i = 0; i < 12; i++) {
-                if (value[i] > 0 && value[i] != 0 && value[i]%2 == 0) {
+                if (value[i] > 0 && value[i]%2 == 0) {
                     product *= value[i];
                     System.out.printf("%.2f * ",value[i]);
                 }
@@ -20,6 +20,5 @@ public class Ex12{
             System.out.printf("1 \n");
             System.out.printf("The final product is %.2f", product);
             System.out.printf("\n");
-
     }
 }

@@ -13,13 +13,14 @@ public class Ex11{
                 input.nextLine();
             }
             double C[] = new double[5];
-            
+            double product = 0;
             System.out.println("C is equals to: ");
             for (int i = 0; i < C.length; i++) {
                     C[i] = B[i] * A[i];
+                    product += C[i];
                     System.out.printf(" %.2f", C[i]);
             }
-            System.out.printf("\n");
+            System.out.printf("\n the product is %.2f \n", product);
 
     }
 }

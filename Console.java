@@ -3,7 +3,7 @@ public class Console{
     public static void main(String[] args) {
             int n = 0;
         do{
-            System.out.printf("Escolha uma atividade para executar\n(1 - 20)\nInput:");
+            System.out.printf("Escolha uma atividade para executar\n(1 - 15)\nInput:");
             int value = UL.lerInteiro();
             switch (value) {
                 case 1:

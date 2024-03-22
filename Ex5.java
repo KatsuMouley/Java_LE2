@@ -1,22 +1,23 @@
 import java.util.Scanner;
 
-public class Ex5 {
+public class Ex5{
     public static void run(){
-        int n = 0;
-        Scanner input = new Scanner(System.in);
-        System.out.printf("Please input the A value: ");
-        int B = input.nextInt();
-        System.out.printf("Please input the B value: ");
-        int A = input.nextInt();
-        input.nextLine();
-        System.out.printf("-------------------------------------\n");
-        System.out.printf("Antes da troca\n");
-        System.out.printf("Variavel B = %d\nVariavel A = %d\n", B, A);
-        n = B;
-        B = A;
-        A = n;
-        System.out.printf("Depois da troca\n");
-        System.out.printf("Variavel B = %d\nVariavel A = %d\n", B, A);
-        System.out.printf("-------------------------------------\n");
+            Scanner input = new Scanner(System.in);
+            System.out.printf("Please Input n:\n");
+            double n = input.nextDouble();
+            double array[] = new double[5];
+            for (int i = 0; i < 5; i++) {
+                System.out.printf("Please Input a number in an array:\n");
+                array[i] = input.nextDouble();
+                input.nextLine();
+            }
+            int c = 0;
+            for (int i = 0; i < 5; i++) {
+                if (array[i] == n) {
+                    c++;
+                }
+            }
+            System.out.println("O número " + n + " aparece " + c + " vezes no array");
     }
 }
+
